@@ -1,0 +1,211 @@
+.content-container{
+    width: 100vw;
+    height: 91vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.box-tengah{
+    width: 90vw;
+    height: 91vh;
+    background-color: #808080;
+    overflow: scroll;
+    overflow-x : hidden;
+}
+.img-atas{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.img-atas img{
+    width: 50vw;
+    border-radius: 7%;
+}
+.container-tebak{
+    border-radius: 5%;
+    width: 90vw;
+    overflow: hidden;
+    overflow-y: hidden;
+    background-color: #333330;
+}         
+
+.box-hasil-tebak{
+    display: flex;
+    background-color: #331000;
+    align-items: end;
+    width: 20000vw;
+    height: 40vh;
+}
+
+.hasil-tebak .atas{
+    float: right;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    background-color:;
+    width: 40vw;
+}
+
+.isi-nama{
+    background-color: black;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    border-bottom: 3vh solid white;
+    border-left: 0.5vw solid white;
+    margin-bottom: 1.5vh;
+    border-right: 0.5vw solid beige;
+    border-radius: 0 0 20% 20%;
+}
+.isi-nama h6, h2{
+    font-size: 1.7vw;
+    color: white;
+}
+.isi-nama p{
+    color: white;
+}
+.atas-angka{
+    border-radius: 100px 100px 0 0;
+    margin-top: 2vh;
+    background-color: #b81414;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    border-bottom: 0.3vh solid gold;
+    border-right: 0.5vw solid beige;
+    border-left: 0.5vw solid beige;
+}
+.isi-angka{
+    background-color: #291210;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18vh;
+    border-bottom: 0.3vh solid gold;
+    border-left: 0.5vh solid beige;
+    border-right: 0.5vw solid beige;
+    
+}
+.isi-angka p {
+    background-color: #291210;
+    font-weight: 999;
+    font-size: 3.5vw;
+    color: white;
+}
+.isi-polls{
+    background-color:brown ;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    border-bottom: 0.5vh solid  darkgoldenrod;
+    border-right: 0.5vw solid white;
+    border-left: 0.5vw solid beige;
+    margin-bottom: 2.vh;
+}
+.table{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.table-dalam{
+    display: flex;
+}
+.table-dalam table{
+    font-size: 2vw;
+    margin-bottom: 3.5vh;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+.table table, thead, th{
+border: 2px solid;
+width: 40vw;
+}
+.table table, tbody, td{
+    border: 2px solid;
+    text-align: center;
+}
+.text-prediksi{
+    padding-bottom: 0.5vh;
+    font-size: 2.8vw;
+    width: 90vw;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: white;
+}
+.masukan-prediksi{
+    background-color: black;
+    color:gold;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+    margin-bottom: 2.5vh;
+}
+.button-hasil-2{
+    text-align: center;
+    width: 30vw;
+    font-size: 2vw;
+    height: 5.5vh;
+    font-weight: 999;
+    margin-top: 1.5vh;
+}
+.box-button-hasil{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-hasil{
+    width: 30vw;
+    height: 7.5vh;
+    border-radius: 20% 20% 40% 40%;
+    font-size: 2vw;
+    font-weight: 999;
+}
+
+.coba2{
+    display: flex; 
+    flex-direction: column-reverse;
+}
+.sembunyi{
+    display: flex;
+    justify-content: center;
+}
+.kotak-kanan{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.kotak-kotak{
+    display: flex;
+}
+.loop-atas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+    background-color: white;
+    border-radius: 10%;
+    width: 40vw;
+    height: 35.5vh;
+    margin-top: 2.5vh;
+}
+.banner-bawah{
+    margin-top:5vh ;
+    width: 90vw;
+    display: flex;
+}
+.banner-bawah img{
+    width: 3%;
+}

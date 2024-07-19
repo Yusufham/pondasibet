@@ -1,0 +1,11 @@
+.box-cambo{
+    width: 90vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-cambo img {
+    width: 70vw;
+    border-radius: 5%;
+}

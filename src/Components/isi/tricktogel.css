@@ -1,0 +1,54 @@
+.trick-box{
+    color: white;
+    width: 90vw;
+    background-color: black;
+}
+.trick-box2{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.trick-box-isi1{
+    width: 90vw;
+    padding-top: 2vh;
+    text-align: center;
+}
+.trick-box-isi2{
+    background-color: #222229;
+    width: 80vw;
+    text-align: start;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    border-radius: 2%;
+}
+.trick-box-isi2 p{
+    margin: 1vw;
+}
+.trick-box-isi2 a{
+    font-size: 3.2vw;
+    font-weight: 999;
+    color: green;
+}
+.togel-bawah{
+    display: flex;
+    width: 80vw;
+}
+.togel-bawah img{
+    width: 80vw;
+    border-radius: 0 0 6.2% 6.2% ;
+}
+.box-vidio{
+    border: 0.3vw solid white;
+    width: 78vw;
+}
+.box-vidio video{
+    width: 80vw;
+    height: 50vh;
+}
+.trick-box2 h1{
+    font-size: 4.6vw;
+    margin-bottom: 0.7vh;
+    
+}

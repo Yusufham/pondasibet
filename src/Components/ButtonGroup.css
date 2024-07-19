@@ -1,0 +1,30 @@
+.navbar-container {
+    width: 100vw;
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+.logo-nav p{
+font-size: 3.5vw;
+font-weight: 9999;
+}
+.logo-nav span{
+    color:pink;
+}
+.button-container{
+width: 25vw;
+display: flex;
+justify-content: space-around;
+}
+.buttons1 {
+    width: 17vw;
+    height: 5.5vh;
+    border-radius: 35%;
+    background-color: aqua;
+}.buttons2 {
+    width: 17vw;
+    height: 5.5vh;
+    border-radius: 20%;
+}

@@ -1,0 +1,66 @@
+.promo-container{
+    width: 100vw;
+    height: 91vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.promo-box{
+    width: 92vw;
+    height: 91vh;
+    background-color: #333;
+    overflow-y: scroll;
+}
+
+.promo-dalam{
+    margin-top: 5vh;
+    width: 92vw;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.promo-1{
+    width: 85vw;
+    border-radius: 5%;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.promo-1 h1{
+    color: white;
+}
+.promo-1 img {
+    margin-top: 7vh;
+    width: 75vw;
+    border-radius: 2%;
+}
+.promo-2{
+    text-align: center;
+    color: white;
+}
+.promo-3{
+    color: white;
+    background-color: black;
+    padding-bottom: 4vh;
+    margin-bottom: 5vh;
+    border-radius: 5%;
+}
+.promo-3 h4{
+    text-align: center;
+    margin-top: 4vh;
+}
+.promo-3 a{
+    border: 0.6vh solid green ;
+    color: red;
+    font-weight: 999;
+}
+.promo-3 p{
+    margin-top: 0.2vh;
+}
+.daftardisini{
+    margin: 0.5vh;
+}

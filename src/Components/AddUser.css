@@ -1,0 +1,285 @@
+.box-kembali{
+    background-color: red;
+    align-items: center;
+    width: 30vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 1vh;
+}
+.box-kembali a{
+    font-weight: 990;
+    text-decoration: none;
+    padding: 0.2vw;
+    border: 0.2vw solid white;
+    font-size: 2.5vw;
+}
+.add-box{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-box2{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+}
+.add-box2 form{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5vw solid white;
+}
+.add-box2 label{
+    text-align: center;
+    color: white;
+}
+.add-box2 h1{
+    font-size: 3.5vw;
+    color: white;
+    border: 1px solid white;
+}
+.field{
+    text-align: center;
+}
+.control-angka input:invalid + span::after {
+    position: absolute;
+    content:"masukan 4D angka";
+    padding-left: 5px;
+    color: red;
+}
+.control-angka input:valid + span::after {
+    position: absolute;
+    content:"success";
+    padding-left: 5px;
+    color: green;
+}
+.control-angka input {
+    width: 20vw;
+}
+
+.control-nama input:invalid + span::after {
+    position: absolute;
+    content:"hanya gunaka huruf";
+    padding-left: 5px;
+    color: red;
+}
+.control-nama input:valid + span::after {
+    position: absolute;
+    content:"success";
+    padding-left: 5px;
+    color: green;
+}
+.control-nama input {
+    width: 20vw;
+}
+
+.control input{
+    width: 20vw;
+}
+.daftar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: black;
+}
+.daftar img{
+    border-radius: 22%;
+    height: 9vh;
+}
+.daftar p{
+    font-size: 2.5vw;
+    color: white;
+}
+.tentang-togel{
+    width: 100vw;
+    background-color: #22222f;
+    display: flex;
+    justify-content: center;
+}
+.box-tentang-togel{
+    width: 88vw;
+    background-color: #33333f;
+    color: white;
+    padding: 1.2vw`;
+}
+.box-tentang-togel h6{
+    font-size: 3.5vw;
+    color: white;
+}.box-tentang-togel a{
+    border: 0.5vw solid green;
+    text-decoration: none;
+    color: white;
+    background-color: darkcyan;
+}
+.box-kembali2{
+    align-items: center;
+    width: 30vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+}
+.box-kembali2 a{
+    background-color: darkblue;
+    color: white;
+    font-size: 4.5vw;
+    border: 0.3vw solid green;
+}
+
+.daftar-bawah{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-isicoment{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.box-isicoment{
+    width: 85vw;
+    background-color: #22222f;
+    border-left:0.5vw solid white ;
+    border-right: 0.5vw solid white;
+    border-bottom: 0.2vh solid white;
+    display: flex;
+    justify-content: center;
+}
+.box-isicoment2{
+width: 80vw;
+}
+.box-isicoment2 h1{
+text-align: center;
+font-size: 2vh;
+margin: 1vh;
+color: white;
+}
+.box-input-komentar{
+    color: white;
+    border: 0.2vw solid white;
+}
+.box-input-komentar input{
+    color: black;
+    font-size: large;
+    width: 25vw;
+    height: 3vh;
+}
+.box-input-komentar2{
+    color: white;
+    border: 0.2vw solid white;
+}
+.box-input-komentar2 textarea{
+    color: black;
+    font-size: large;
+    height: 9vh;
+    width: 50vw;
+}
+.coment{
+    display: flex;
+    justify-content: center;
+    background-color: black;    
+    width: 100vw;
+}
+.coment2{
+    background-color: #22222f;
+    border-left: 0.5vw solid white;
+    border-right: 0.5vw solid white;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+}
+.box-coment{
+    flex-direction: column-reverse;
+    display: flex;
+    width: 80vw;
+}
+.box-nama{
+    margin-top: 2vh;
+    width: 40vw;
+    border: 0.2vh solid white;
+    background-color: darkblue;
+    color: white;
+    height: 5vh;
+}
+.box-komentar{
+    display: flex;
+    align-items: center;
+    border: 0.2vh solid white;
+    color: white;
+    margin-bottom: 2.5vh;
+}
+.box-komentar p{
+    text-align: center;
+    margin: 1vh;
+}
+.control-nama-komentar input:invalid + span::after {
+    position: absolute;
+    content:"hanya gunakan huruf";
+    padding-left: 5px;
+    color: red;
+}
+.control-nama-komentar input:valid + span::after {
+    position: absolute;
+    content:"success";
+    padding-left: 5px;
+    color: green;
+}
+.control-komentar input {
+    width: 20vw;
+}
+.control-komentar textarea:invalid + span::after {
+    position: absolute;
+    content:"min 6 huruf";
+    padding-left: 5px;
+    color: red;
+}
+.control-komentar input:valid + span::after {
+    position: absolute;
+    content:"success";
+    padding-left: 5px;
+    color: green;
+}
+.control-komentar input {
+    width: 20vw;
+}
+
+
+.promo-nama-komentar input:invalid + span::after {
+    position: absolute;
+    content:"hanya gunakan huruf";
+    padding-left: 5px;
+    color: red;
+}
+.promo-nama-komentar input:valid + span::after {
+    position: absolute;
+    content:"success";
+    padding-left: 5px;
+    color: green;
+}
+.promo-komentar input {
+    width: 20vw;
+}
+.promo-komentar textarea:invalid + span::after {
+    position: absolute;
+    content:"min 6 huruf";
+    padding-left: 5px;
+    color: red;
+}
+.promo-komentar input:valid + span::after {
+    position: absolute;
+    content:"success";
+    padding-left: 5px;
+    color: green;
+}
+.promo-komentar input {
+    width: 20vw;
+}

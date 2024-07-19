@@ -1,0 +1,74 @@
+.end-komentar{
+    width: 100vw;
+    overflow: scroll;
+    height: 91vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.end-komentar a{
+    color: white;
+    text-decoration: none;
+}
+.end-komentar2{
+    padding-top: 5vh;
+    background-color: #222229;
+    width: 90vw;
+    height: 91vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.end-komentar-atas{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333229;
+}
+.end-komentar-atas2{
+    display: flex;
+    width: 65vw;
+}
+.end-komentar-atas2 img{
+    width: 21.5vw
+}
+.end-komentar-atas a{
+    text-decoration: none;
+    border: 0.2vw solid green;
+}
+.end-komentar-terimakasih{
+    width: 65vw;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.end-komentar-terimakasih img{
+    height: 8vh;
+}
+.minimal{
+    display: flex;
+    width: 65vw;
+}
+.minimal img{
+    width: 65vw;
+}
+.kembali{
+    width: 40vw;
+    height: 8vh;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white;
+    padding-right: 1vw;
+}
